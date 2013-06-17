@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1" android:id="@+id/searchLayout">
+        <AutoCompleteTextView android:id="@+id/searchText" android:layout_width="150dp" android:inputType="textAutoComplete" android:layout_height="wrap_content"  android:layout_weight="1.01" android:layout_gravity="fill_horizontal|fill_vertical" android:hint="@string/titleAuthorHint" android:imeOptions="actionSearch" ></AutoCompleteTextView>
+          <Button
+            android:id="@+id/clear_text"      
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:text="X"        />
+        
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/searchButton" android:text="@android:string/search_go"></Button>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content" android:id="@+id/booksFound" android:text="0 books found" android:layout_height="wrap_content" android:paddingLeft="8sp"></TextView>
+        <ProgressBar style="?android:attr/progressBarStyleSmall" android:layout_width="wrap_content" android:id="@+id/search_progress" android:layout_height="fill_parent" android:paddingLeft="8sp" android:visibility="gone"></ProgressBar>
+        <TextView android:layout_width="wrap_content" android:id="@+id/progress_message" android:text="TextView" android:layout_height="wrap_content" android:paddingLeft="8sp" android:visibility="gone"></TextView>
+    </LinearLayout>
+    <ListView android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/list" android:fastScrollEnabled="true" android:divider="@color/divider" android:dividerHeight="@dimen/divider_height"></ListView>
+</LinearLayout>

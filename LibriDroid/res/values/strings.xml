@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- do not translate -->
+    <string name="app_name">LibriDroid</string>
+    <string name="wiki">(wiki)</string>
+
+    <color name="divider">#6E6E74</color>
+    <color name="link">#0066FF</color>
+    <color name="error">#FF0000</color>
+    <color name="wdiget_background">#86A8CA</color>
+
+    <dimen name="divider_height">1px</dimen>
+    <dimen name="widget_margin">15dp</dimen>
+
+    <string name="pref_skip_forward_key">pref_skip_forward_key</string>
+    <string name="pref_skip_back_key">pref_skip_back_key</string>
+    <string name="pref_transient_focus_loss_repeat_key">pref_transient_focus_loss_repeat_key</string>
+    <string name="pref_my_books_sort_key">pref_my_books_sort_key</string>
+    <string name="pref_default_share_text_key">default_share_text_key</string>
+
+    <!-- translatable -->
+    <string name="click_to_find_books">Click to find books</string>
+    <string name="LibrivoxSearch">Title/Author</string>
+    <string name="LibrivoxSearchButton">Search</string>
+    <string name="download">Download</string>
+    <string name="number_of_sections">Number of Sections</string>
+    <string name="titleAuthorHint">Title/Author/Genre</string>
+    <string name="title">Title</string>
+    <string name="subtitle">Subtitle</string>
+    <string name="author">Author</string>
+    <string name="genre">Genre</string>
+    <string name="category">Category</string>
+    <string name="librivox_url">Librivox project page</string>
+    <string name="description">Description</string>
+    <string name="duration">Duration</string>
+    <string name="size">Size</string>
+
+    <plurals name="books_found">
+        <item quantity="one">%d book found</item>
+        <item quantity="other">%d books found</item>
+    </plurals>
+    <plurals name="books_in_library">
+        <item quantity="one">%d book in the library</item>
+        <item quantity="other">%d books in the library</item>
+    </plurals>
+
+    <string name="search">Search</string>
+    <string name="remove">Remove</string>
+    <string name="settings">Settings</string>
+    <string name="my_books">My Books</string>
+    <string name="download_ticker">Downloading audiobooks from Librivox</string>
+    <string name="download_service_title">LibriDroid download</string>
+    <string name="download_view_progress">View Download Progress</string>
+    <string name="downloads_menu_item">Downloads</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="playing">Playing</string>
+    <string name="progress_reading">Reading...</string>
+    <string name="progress_parsing">Parsing...</string>
+    <string name="resume">Resume</string>
+    <string name="cannotAcquireAudioResources">Cannot Acquire Audio Resources</string>
+    <string name="noRSSForBook">No RSS for Librivox book %s.</string>
+    <string name="errorGettingPlayer">Error getting Player</string>
+    <string name="bufferingAudioFile">Buffering Audio File</string>
+    <string name="connectionProblem">Connection Problem</string>
+    <string name="pleaseWait">Please Wait...</string>
+    <string name="sectionPlayerMenu">Section Actions</string>
+    <string name="sectionPlay">Play Section</string>
+    <string name="sectionDownload">Download section file</string>
+    <string name="sectionDelete">Delete audio file</string>
+    <string name="downloadMenu">Pending download actions</string>
+    <string name="deleteDownload">Delete section download</string>
+    <string name="bookPlayerMenu">Book Menu</string>
+    <string name="bookPlay">Play book</string>
+    <string name="bookDelete">Delete Book files</string>
+    <string name="bookRemove">Remove Book</string>
+    <string name="bookAdd">Add book</string>
+    <string name="bookSearchMenu">Search Menu</string>
+    <string name="downloadMoveToFirst">Move to First</string>
+    <string name="bookDownload">Download book files</string>
+    <string name="books_using_disk_space">using</string>
+    <string name="diskUsage">Disk Usage</string>
+    <string name="deleteAllFilesFor">Delete all files for \"%s\"?</string>
+    <string name="deleteAllFiles">Delete all files</string>
+    <string name="deletingFiles">Deleting Files</string>
+    <string name="addToLibrary">Add</string>
+    <string name="deleteBookFiles">Delete files</string>
+    <string name="errorDeletingSection">Error deleting file</string>
+    <string name="pref_player_category">Player Settings</string>
+    <string name="pref_skip_forward_time_s">Skip Forward Button</string>
+    <string name="pref_skip_forward_time_summary">Skip Forward %s seconds</string>
+    <string name="pref_skip_forward_key">skipForwardSec</string>
+    <string name="pref_dlg_skip_forward">Number of seconds to skip forward</string>
+    <string name="pref_dlg_ttl_skip_forward">Skip forward seconds</string>
+    <string name="pref_skip_back_time_s">Skip Backward Button</string>
+    <string name="pref_skip_back_key">skipBackSec</string>
+    <string name="pref_skip_back_time_summary">Skip Back %s seconds</string>
+    <string name="pref_dlg_skip_back">Number of seconds to skip backward</string>
+    <string name="pref_dlg_ttl_skip_back">Skip back seconds</string>
+    <string name="pref_transient_focus_loss_repeat_sec">Repeat on Interrupt</string>
+    <string name="pref_transient_focus_loss_repeat_key">transientLossRepeat</string>
+    <string name="pref_transient_focus_loss_repeat_summary">Repeat %s seconds on interruption</string>
+    <string name="pref_dlg_repeat_interrupt">Number of seconds to repeat on interruption
+	</string>
+    <string name="pref_dlg_ttl_repeat_interrupt">Repeat seconds on interruption</string>
+    <string name="pref_my_books_category">My Books</string>
+    <string name="pref_book_sort">Books Sort Order</string>
+
+    <string-array name="books_order_description">
+        <item>Sort by most recently listened</item>
+        <item>Sort by Title</item>
+        <item>Sort by Author</item>
+    </string-array>
+    <string-array name="books_order">
+
+        <!--
+             these keys should match 1) values in BookSort.java- 2) string-array 
+			'books_order_description' don't translate these
+        -->
+        <item>LAST_LISTENED</item>
+        <item>TITLE</item>
+        <item>AUTHOR</item>
+    </string-array>
+
+    <string name="pref_share_category">Share</string>
+    <string name="pref_other_category">General</string>
+    <string name="libridroid_description">Libridroid is an app that allows searching for and
+		listening to audio books on the librivox.org website.
+		Librivox audio
+		books are public domain books read by volunteers.
+	</string>
+    <string name="last_listened_on">Last listened on %s</string>
+    <string name="never_listened_to">Never listened to</string>
+    <string name="no_books_start_searching">No books- Search for some</string>
+    <string name="no_books_start_searching_widget">Click to search for books</string>
+    <string name="widget_loading">Loading...</string>
+
+    <string name="pref_default_share_text">Share text</string>
+    <string name="pref_dlg_ttl_default_share">Share text</string>
+    <string formatted="false" name="pref_dlg_default_share_msg">You can use parameters %t=title, %a=author, %u=url</string>
+    <string formatted="false" name="default_share_message">I am listening to \"%t\" by %a\n(%u)\nvia LibriDroid for Android.</string>
+
+    <string name="chooseAlternateActivity">Not a LibriDroid URI, Choose Alternate App</string>
+    <string name="urlIsNotForLibriDroid">Not a LibriDroid URL, launching alternative app</string>
+    <string name="gettingBookInfoFromUrl">Getting book info from URL %s.</string>    
+</resources>

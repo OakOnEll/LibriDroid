@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical">
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="wrap_content">
+        <TextView android:text="&gt;" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/isCurrentSection"></TextView>
+        <TextView android:layout_height="wrap_content" android:layout_width="20sp" android:layout_gravity="right|center_vertical" android:id="@+id/number" android:text="99" android:gravity="right|center_vertical"></TextView>
+        <TextView android:id="@+id/duration" android:gravity="right|center_vertical" android:layout_gravity="right|center_vertical" android:layout_width="80sp" android:layout_height="wrap_content" android:text="1h:08m:01s"></TextView>
+        <TextView android:id="@+id/diskUsage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1 Mb" android:layout_marginLeft="20sp"></TextView>
+        <TextView android:text=" / " android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        <TextView android:layout_height="wrap_content" android:layout_width="85sp" android:id="@+id/size" android:text="999.9 Mb" android:layout_marginLeft="5sp"></TextView>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout2" android:layout_width="match_parent">
+        <TextView android:layout_height="wrap_content" android:id="@+id/title" android:layout_width="wrap_content" android:layout_marginLeft="20sp" android:text="Title"></TextView>
+    </LinearLayout>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/author" android:text="Author" android:layout_marginLeft="25sp"></TextView>
+    
+</LinearLayout>

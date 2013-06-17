@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.oakonell.libridroid"
+    android:versionCode="3"
+    android:versionName="1.4" >
+
+    <uses-sdk android:minSdkVersion="4" />
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WAKE_LOCK" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+
+    <application
+        android:icon="@drawable/ic_launcher_libridroid"
+        android:label="@string/app_name" >
+        <activity
+            android:label="@string/app_name"
+            android:name=".books.MyBooksActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".books.LibrivoxSearchActivity" >
+        </activity>
+
+        <activity android:name=".books.SharedBookActivity"  android:noHistory="true">            
+            <intent-filter >
+                <action android:name="android.intent.action.VIEW" ></action>
+                <category android:name="android.intent.category.DEFAULT" ></category>
+                <category android:name="android.intent.category.BROWSABLE" ></category>
+<!--                       android:pathPattern=".*LibriDroidId="-->
+                <data
+                    android:host="librivox.org"
+                    android:scheme="http" >
+                </data>
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".books.BookViewActivity" >
+        </activity>
+        <activity android:name=".download.DownloadViewActivity" >
+        </activity>
+        <activity
+            android:launchMode="singleTask"
+            android:name=".player.PlayerActivity" >
+        </activity>
+
+        <provider
+            android:authorities="com.oakonell.libridroid.libridroid"
+            android:name=".data.LibraryContentProvider" >
+        </provider>
+        <provider
+            android:authorities="com.oakonell.libridroid.libridroid.download"
+            android:name=".download.DownloadContentProvider" >
+        </provider>
+
+        <service android:name=".download.DownloadService" >
+        </service>
+        <service android:name=".player.LibriDroidPlayerService" >
+        </service>
+
+        <activity
+            android:label="@string/app_name"
+            android:name=".books.LibridroidPreferences" >
+        </activity>
+        <activity android:name="AboutLibridroidActivity" >
+        </activity>
+
+        <!-- widget related -->
+        <service android:name=".player.LibridroidAppWidgetProvider$WidgetUpdateService" >
+        </service>
+
+        <receiver android:name="com.oakonell.libridroid.player.LibridroidAppWidgetProvider" >
+            <intent-filter >
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/librivox_appwidget_info" />
+        </receiver>
+    </application>
+
+</manifest>

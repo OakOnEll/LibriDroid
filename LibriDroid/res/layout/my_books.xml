@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:id="@+id/myBooksView">
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/linearLayout1">
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/booksInLibrary" android:text="0 books in library" android:paddingLeft="8sp"></TextView>
+        <TextView android:text="@string/books_using_disk_space" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingLeft="6sp"></TextView>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10.3 Mb" android:id="@+id/diskUsage" android:paddingLeft="5sp"></TextView>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical|center_horizontal" android:clickable="true" android:id="@+id/no_books_layout">
+        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_books_start_searching"></TextView>
+        <ImageView android:layout_width="wrap_content" android:id="@+id/imageView1" android:src="@android:drawable/ic_search_category_default" android:layout_height="wrap_content"></ImageView>
+    </LinearLayout>
+    <ListView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/myBooksListLayout" android:divider="@color/divider" android:dividerHeight="@dimen/divider_height"></ListView>
+    
+</LinearLayout>

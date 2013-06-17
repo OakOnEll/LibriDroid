@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orderingFromXml="true"
+ 	xmlns:oakonell="http://schemas.android.com/apk/res/com.oakonell.libridroid"
+	>
+	<PreferenceCategory android:key="@string/pref_my_books_category"
+		android:title="@string/pref_my_books_category">
+		<com.oakonell.utils.preference.ValueDisplayingListPreference
+			android:key="@string/pref_my_books_sort_key" android:title="@string/pref_book_sort"
+			android:defaultValue="LAST_LISTENED" android:entryValues="@array/books_order"
+			android:entries="@array/books_order_description" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/pref_player_category"
+		android:key="@string/pref_player_category">
+		<com.oakonell.utils.preference.ValueDisplayingEditTextPreference
+			android:key="@string/pref_skip_forward_key" 
+			android:numeric="integer"
+			android:title="@string/pref_skip_forward_time_s"
+			oakonell:formattedSummary="@string/pref_skip_forward_time_summary" 
+			android:dialogMessage="@string/pref_dlg_skip_forward"
+			android:dialogTitle="@string/pref_dlg_ttl_skip_forward" 
+			android:defaultValue="10" 
+			/>
+		<com.oakonell.utils.preference.ValueDisplayingEditTextPreference
+			android:key="@string/pref_skip_back_key"
+			android:numeric="integer" 
+			android:title="@string/pref_skip_back_time_s"
+			oakonell:formattedSummary="@string/pref_skip_back_time_summary"
+			android:dialogMessage="@string/pref_dlg_skip_back"
+			android:dialogTitle="@string/pref_dlg_ttl_skip_back" 
+			android:defaultValue="10" 
+			/>
+		<com.oakonell.utils.preference.ValueDisplayingEditTextPreference 
+			android:key="@string/pref_transient_focus_loss_repeat_key"
+			android:numeric="integer" 
+			android:title="@string/pref_transient_focus_loss_repeat_sec"  
+			oakonell:formattedSummary="@string/pref_transient_focus_loss_repeat_summary" 
+			android:dialogMessage="@string/pref_dlg_repeat_interrupt"
+			android:dialogTitle="@string/pref_dlg_ttl_repeat_interrupt" 
+			android:defaultValue="10"/>
+	</PreferenceCategory>
+
+	<PreferenceCategory android:key="@string/pref_share_category" android:title="@string/pref_share_category">
+		<com.oakonell.utils.preference.ValueDisplayingEditTextPreference
+			android:key="@string/pref_default_share_text_key" 
+			android:title="@string/pref_default_share_text"
+			android:defaultValue="@string/default_share_message"
+			android:dialogMessage="@string/pref_dlg_default_share_msg"
+			android:dialogTitle="@string/pref_dlg_ttl_default_share" 
+			/>	    
+		<com.oakonell.utils.preference.ValueDisplayingListPreference
+			android:key="@string/pref_copy_for_face_book_key" android:title="@string/pref_copy_for_face_book"
+			android:defaultValue="PROMPT" android:entryValues="@array/copy_for_face_book"
+			android:entries="@array/copy_for_face_book_description" />		
+	</PreferenceCategory>
+	<PreferenceCategory android:key="@string/pref_other_category"
+		android:title="@string/pref_other_category">
+		<Preference android:title="@string/pref_reset_preferences"
+			android:key="@string/pref_reset_preferences_key" />
+        <Preference
+            android:key="@string/pref_changes_key"
+            android:title="@string/pref_changes" />
+		<Preference android:title="@string/pref_about"
+			android:key="@string/pref_about_key" />
+	</PreferenceCategory>
+	
+
+</PreferenceScreen>

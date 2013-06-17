@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- do not translate -->
+    <string name="pref_reset_preferences_key">reset_prefs</string>   
+    <string name="pref_other_category">Other</string>
+    <string name="pref_about_key">about_pref</string>
+    <string name="pref_changes_key">changes_pref</string>
+    <string name="pref_copy_for_face_book_key">copy_for_face_book</string>
+
+    <!-- translate -->
+    <string name="pref_reset_preferences">Reset Preferences</string>
+    <string name="pref_about">About</string>
+    <string name="pref_changes">View Change History</string>
+        <string name="pref_confirm_reset_preferences">Reset all preferences?</string>
+    <string name="httpError">HTTP Error %s</string>
+    <string name="connectionProblem">Connection Problem</string>
+    <string name="share">Share</string>
+    <string name="shareVia">Share Via</string>
+    <string name="copySubjectToClipboardAsWorkAroundForFacebookAppBug">Copy Share Text to Clipboard (to allow pasting into broken facebook share dialog)?</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="remember_this_choice">Remember this choice</string>
+
+    <!-- do not translate the copy_for_face_book values -->
+    <string-array name="copy_for_face_book">
+        <item>YES</item>
+        <item>NO</item>
+        <item>PROMPT</item>
+    </string-array>
+    <string-array name="copy_for_face_book_description">
+        <item>Yes, copy share text to clipboard</item>
+        <item>No, don\'t copy share text to clipboard</item>
+        <item>Prompt whether to copy share text each time</item>
+    </string-array>
+
+    <string name="pref_copy_for_face_book">Copy share text to clipboard for facebook posts</string>
+    
+    <string name="rate_app">Rate %s</string>
+    <string name="rate_text">If you enjoy using %s, please take a moment to rate it. Thanks for your support!</string>
+    <string name="rate_remind_later">Remind me later</string>
+    <string name="rate_no_thanks">No thanks</string>
+    <string name="rate_unknown_app_title">unknown</string>
+    <string name="rate_redirects_to_market">Redirects to market</string>
+                
+</resources>

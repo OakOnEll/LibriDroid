@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://web.resource.org/cc/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" height="187.32613" id="svg951" inkscape:version="0.45.1" sodipodi:docbase="G:\" sodipodi:docname="book2.svg" sodipodi:version="0.32" width="341.35034" inkscape:output_extension="org.inkscape.output.svg.inkscape" version="1.0">
+  <metadata id="metadata3">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:title>Open Book</dc:title>
+        <dc:description/>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>hash</rdf:li>
+            <rdf:li/>
+            <rdf:li>education</rdf:li>
+            <rdf:li>book</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://www.openclipart.org">
+            <dc:title>Nathan Eady</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Nathan Eady</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Nathan Eady</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date/>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://web.resource.org/cc/PublicDomain"/>
+        <dc:language>en</dc:language>
+      </cc:Work>
+      <cc:License rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+        <cc:permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+        <cc:permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs953"/>
+  <sodipodi:namedview bordercolor="#666666" borderopacity="1.0" id="base" inkscape:cx="174.17094" inkscape:cy="60.187376" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:window-height="817" inkscape:window-width="1152" inkscape:window-x="-4" inkscape:window-y="-4" inkscape:zoom="2" pagecolor="#ffffff" showguides="true" inkscape:guide-bbox="true" inkscape:current-layer="g2159"/>
+  <g id="g2159" transform="translate(-11.6956, -15.7955)">
+    <path sodipodi:nodetypes="cccccccsssssccs" id="path3139" d="M 136.84431,45.577813 C 138.00846,44.676382 148.95997,29.897808 179.14834,23.849667 C 202.85888,18.748572 211.65981,20.956969 237.04423,23.833211 C 298.67511,65.238836 298.64263,64.977239 348.04592,98.859185 C 347.90149,114.01336 348.45299,118.18882 348.04723,126.74037 C 288.31801,122.31753 264.07134,139.16156 229.91456,159.41378 C 176.65023,156.58667 120.35451,174.0124 91.54999,194.46141 C 77.944308,201.50157 80.242971,196.25333 79.469055,196.06654 C 78.603332,195.8576 17.487422,92.868999 16.764721,91.423597 C 15.920047,89.734249 24.076149,68.2353 24.988579,67.779086 C 25.934777,67.305986 35.757654,52.971244 68.882609,43.377419 C 106.69519,32.425938 136.827,42.847643 138.21563,43.541958 C 141.13937,45.003829 219.94664,128.60843 221.18568,129.84747 C 179.51785,129.21728 129.10765,131.94887 89.169449,162.60042 C 88.272965,164.17394 30.357757,67.36486 29.165509,66.172612" style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"/>
+    <path sodipodi:nodetypes="cc" id="path3141" d="M 221.84211,129.39218 C 255.94658,99.147354 302.81708,92.680986 346.69823,98.563333" style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:11;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"/>
+    <path sodipodi:nodetypes="cc" id="path3143" d="M 89.91161,161.67342 C 85.739677,165.23107 79.73091,196.67515 82.284684,196.3215" style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:11;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"/>
+  </g>
+</svg>

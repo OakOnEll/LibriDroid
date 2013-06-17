@@ -1,0 +1,178 @@
+//  ***************** Launcher Icons
+//
+// File and path settings
+//
+FileSvg 'C:\Users\Rob\workspace-AndroidDev\LibriDroid\rawResources\Android_robot_read_book.svg'
+PathClear false
+FilePrefix 'ic_launcher_'
+FileFormat png
+FileName 'libridroid'
+
+// High resolution
+PathExport 'res/drawable-hdpi'
+ExportWidth 72
+ExportHeight 72
+Convert
+
+// Medium resolution
+PathExport 'res/drawable-mdpi'
+ExportWidth 48
+ExportHeight 48
+Convert
+
+// low resolution
+PathExport 'res/drawable-ldpi'
+ExportWidth 36
+ExportHeight 36
+Convert
+
+// High Res Application icon
+PathExport '/res'
+ExportWidth 512
+ExportHeight 512
+Convert
+
+
+// ******************* Status bar / Notification icons
+FileSvg 'C:\Users\Rob\workspace-AndroidDev\LibriDroid\rawResources\download_book.svg'
+FileName 'download_book'
+PathClear false
+FilePrefix 'ic_stat_notify_'
+FileFormat png
+
+// >=2.3 high resolution
+PathExport 'res/drawable-hdpi-v9'
+ExportWidth 24
+ExportHeight 38
+Convert
+
+// >=2.3 medium resolution
+PathExport 'res/drawable-mdpi-v9'
+ExportWidth 16
+ExportHeight 25
+Convert
+
+// >=2.3 low  resolution
+PathExport 'res/drawable-ldpi-v9'
+ExportWidth 12
+ExportHeight 19
+Convert
+
+
+
+// <2.3 high resolution
+PathExport 'res/drawable-hdpi'
+ExportWidth 25
+ExportHeight 25
+Convert
+
+// <2.3 medium resolution
+PathExport 'res/drawable-mdpi'
+ExportWidth 25
+ExportHeight 25
+Convert
+
+// <2.3 low  resolution
+PathExport 'res/drawable-ldpi'
+ExportWidth 25
+ExportHeight 25
+Convert
+
+
+// Player notification icon
+FileSvg 'C:\Users\Rob\workspace-AndroidDev\LibriDroid\rawResources\Android_robot_read_book_notify.svg'
+FileName 'play'
+PathClear false
+FilePrefix 'ic_stat_notify_'
+FileFormat png
+
+// >=2.3 high resolution
+PathExport 'res/drawable-hdpi-v9'
+ExportWidth 24
+ExportHeight 38
+Convert
+
+// >=2.3 medium resolution
+PathExport 'res/drawable-mdpi-v9'
+ExportWidth 16
+ExportHeight 25
+Convert
+
+// >=2.3 low  resolution
+PathExport 'res/drawable-ldpi-v9'
+ExportWidth 12
+ExportHeight 19
+Convert
+
+
+
+// <2.3 high resolution
+PathExport 'res/drawable-hdpi'
+ExportWidth 25
+ExportHeight 25
+Convert
+
+// <2.3 medium resolution
+PathExport 'res/drawable-mdpi'
+ExportWidth 25
+ExportHeight 25
+Convert
+
+// <2.3 low  resolution
+PathExport 'res/drawable-ldpi'
+ExportWidth 25
+ExportHeight 25
+Convert
+
+
+
+// ******************* Menu icons
+// MyBooks
+FileSvg 'C:\Users\Rob\workspace-AndroidDev\LibriDroid\rawResources\stackedBooks-grey.svg'
+FileName 'my_books_icon'
+PathClear false
+FilePrefix 'ic_menu_'
+FileFormat png
+
+// high resolution
+PathExport 'res/drawable-hdpi'
+ExportWidth 72
+ExportHeight 72
+Convert
+
+// medium resolution
+PathExport 'res/drawable-mdpi'
+ExportWidth 48
+ExportHeight 48
+Convert
+
+// low  resolution
+PathExport 'res/drawable-ldpi'
+ExportWidth 36
+ExportHeight 36
+Convert
+
+// Download
+FileSvg 'C:\Users\Rob\workspace-AndroidDev\LibriDroid\rawResources\download_book.svg'
+FileName 'downloads_icon'
+PathClear false
+FilePrefix 'ic_menu_'
+FileFormat png
+
+// high resolution
+PathExport 'res/drawable-hdpi'
+ExportWidth 72
+ExportHeight 72
+Convert
+
+// medium resolution
+PathExport 'res/drawable-mdpi'
+ExportWidth 48
+ExportHeight 48
+Convert
+
+// low  resolution
+PathExport 'res/drawable-ldpi'
+ExportWidth 36
+ExportHeight 36
+Convert

@@ -1,0 +1,5 @@
+v1.4
+  Added startup What's New displayer
+  Added startup rating prompter
+
+  

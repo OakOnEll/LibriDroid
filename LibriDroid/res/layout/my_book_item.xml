@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    <TextView android:id="@+id/title" android:text="Title" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceLarge"></TextView>
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout2" android:layout_width="match_parent">
+        <TextView android:id="@+id/author" android:text="Author" android:paddingLeft="5dp" android:layout_height="wrap_content" android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content"></TextView>
+        <TextView android:id="@+id/diskUsage" android:layout_height="wrap_content" android:text="10 Mb" android:layout_gravity="right" android:gravity="right" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="75sp"></TextView>
+    </LinearLayout>
+    <TextView android:id="@+id/genre" android:text="Genre" android:layout_gravity="right" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="3" android:textAppearance="?android:attr/textAppearanceSmall" android:paddingLeft="5dp"></TextView>
+    
+</LinearLayout>

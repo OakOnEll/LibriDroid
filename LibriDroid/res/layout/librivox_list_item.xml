@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    <LinearLayout android:id="@+id/linearLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:text="Title" android:id="@+id/title" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="fill_parent" android:layout_height="wrap_content" android:bufferType="normal" android:layout_weight="9"></TextView>
+        <TextView android:text="" android:layout_weight="1" android:layout_height="20sp" android:layout_width="20sp" android:id="@+id/is_in_library" android:layout_gravity="right|center_vertical" ></TextView>
+    </LinearLayout>
+    <TextView android:id="@+id/author" android:text="Author" android:layout_gravity="left" android:layout_height="wrap_content" android:layout_width="fill_parent" android:paddingLeft="5dp"></TextView>
+    <TextView android:id="@+id/genre" android:text="Genre" android:layout_height="wrap_content" android:layout_width="fill_parent" android:textAppearance="?android:attr/textAppearanceSmall" android:paddingLeft="5dp"></TextView>
+    
+</LinearLayout>

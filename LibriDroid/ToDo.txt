@@ -1,0 +1,61 @@
+Dickens book without RSS feed... Wreck of the golden mary...
+
+communication through handler instead of DB...
+  need unique generated ID, and a map to hold messages in queue
+  
+play/pause on app's activities (show small simple progress?)
+
+abstract player controller into widget
+
+Ugh... even the player thread could have a race condition 
+ eg) on the waiting for buffering
+ and maybe other
+
+BookViewActivity
+  deregister query listeners on hide. 
+
+display the download rate on downloads page.. (and notification..?)
+display time/duration on notification?
+
+show readers of each section/book
+status of download requests (to handle errors..) 
+
+when downloading, if hit end of file, "pause" and show wait cycle (notification if no player)
+   continue (and remove notification or wait cycle)
+
+handle deletes while service is playing...
+
+delete all files in another thread
+
+view "orphaned" audio files in libridroid directory (books not in library, but files/directory still exist)
+
+hook into phone's main search...?
+player store state of buffered progress.. Or get immediately updated from player?
+
+only one of each activity on stack... pressing back goes through all of them
+  
+bookmarks
+
+
+optimize findViewById- cache objects in ivars   
+
+                               
+Done:
+When player paused, still allow update of position while pressing forward/back
+Fix download pause/resume button
+  (threading problem- look to player for example of fix)
+Pressing play while playing... causes to start again?!
+
+
+
+My book icon
+downloads icon
+download activity
+   button not updating correctly
+     link better with the service's actions (e.g., look at player) 
+player icon
+     give option to delete sections (one-by-one or whole book's)
+     why is update buffering "pausing" sometimes
+     update buffering while paused..?
+     change pause/play label when externally paused (e.g., audio focus helper)
+     

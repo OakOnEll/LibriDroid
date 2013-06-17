@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+            <LinearLayout android:layout_height="wrap_content" android:id="@+id/titleLayout" android:layout_width="wrap_content">
+            <TextView android:id="@+id/title" android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/title" android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="wrap_content"></TextView>
+            <TextView android:id="@+id/wiki_url" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/wiki" android:paddingLeft="8sp" android:textColor="@color/link"></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:orientation="horizontal" android:id="@+id/authorLayout" android:layout_width="wrap_content">
+            <TextView android:id="@+id/author" android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/author" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="1"></TextView>
+            <TextView android:id="@+id/author_url" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/wiki" android:paddingLeft="8sp" android:textColor="@color/link"></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="vertical" android:id="@+id/genreLayout">
+            <TextView android:text="@string/genre" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/genre"></TextView>
+            <TextView android:text="@string/category" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/category"></TextView>
+        </LinearLayout>
+        <TextView android:id="@+id/librivox_url" android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/librivox_url" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@color/link"></TextView>
+        <TextView android:id="@+id/last_listened_on" android:text="Last listened on December 5th, 2011" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+        <LinearLayout android:id="@+id/numSectionsLayout" android:layout_height="wrap_content" android:layout_width="fill_parent">
+            <TextView android:id="@+id/textView2" android:text="@string/number_of_sections" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+            <TextView android:id="@+id/num_sections" android:text="" android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingLeft="8sp"></TextView>
+            <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleSmall" android:paddingLeft="8sp" android:visibility="gone" android:id="@+id/section_progress"></ProgressBar>
+            <TextView android:textAppearance="?android:attr/textAppearanceSmall"  android:id="@+id/sectionLoadMessage" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/durationLayout">
+            <TextView android:id="@+id/textView2" android:text="@string/duration" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+            <TextView android:id="@+id/duration" android:text="" android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingLeft="8sp"></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/sizeLayout">
+            <TextView android:layout_height="wrap_content" android:text="@string/size" android:id="@+id/textView1" android:layout_width="wrap_content"></TextView>
+            <TextView android:layout_height="wrap_content" android:text="20.1 Mb" android:id="@+id/size" android:layout_width="wrap_content" android:paddingLeft="8sp"></TextView>
+            <TextView android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/diskUsage" android:paddingLeft="10sp"></TextView>
+            <TextView android:id="@+id/diskUsage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10.3 Mb" android:paddingLeft="5sp"></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/actions" android:layout_gravity="center_horizontal" android:gravity="center_horizontal">
+            <Button android:layout_height="wrap_content" android:id="@+id/play" android:text="@string/play" android:layout_width="wrap_content"></Button>
+            <Button android:id="@+id/download" android:layout_gravity="center_horizontal" android:text="@string/download" android:layout_height="wrap_content" android:layout_width="wrap_content"></Button>
+            <Button android:id="@+id/addToLibrary" android:text="@string/addToLibrary" android:layout_height="wrap_content" android:layout_width="wrap_content"></Button>
+            <Button android:id="@+id/delete" android:text="@string/deleteBookFiles" android:layout_height="wrap_content" android:layout_width="wrap_content"></Button>
+        </LinearLayout>
+        <TextView android:layout_height="wrap_content" android:id="@+id/description" android:text="@string/description" android:layout_width="wrap_content"></TextView>
+    
+</LinearLayout>

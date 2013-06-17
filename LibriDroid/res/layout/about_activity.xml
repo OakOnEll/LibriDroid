@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_gravity="center_vertical" android:gravity="center_vertical|center_horizontal">
+        <ImageView android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/ic_launcher_libridroid"></ImageView>
+        <TextView android:id="@+id/textView1" android:text="Libridroid" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:paddingRight="10dp"></TextView>
+        <TextView android:id="@+id/version" android:text="0.5" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge"></TextView>
+    </LinearLayout>
+    <TextView android:id="@+id/textView2" android:text="http://www.oakonell.com/" android:layout_height="wrap_content" android:layout_width="wrap_content" android:autoLink="web" android:paddingTop="5dp" android:paddingBottom="5dp"></TextView>
+    <TextView android:id="@+id/description" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/libridroid_description" android:autoLink="web|email"></TextView>
+    
+</LinearLayout>

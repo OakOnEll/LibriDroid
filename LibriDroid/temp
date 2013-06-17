@@ -1,0 +1,4 @@
+When buffering file while playing, make sure it is downloading- start if necessary
+on "early completion", when file still needs downloading, put the buffering in new thread
+fix up fraction calculation while buffering (use section's size, not the player's duration)
+fix up the downloading service to wait till previous one finishes, to avoid probable race condition on the notification   

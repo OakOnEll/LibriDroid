@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fileset-config file-format-version="1.2.0" simple-config="false" sync-formatter="false">
+  <fileset name="all" enabled="false" check-config-name="Rob's from Sun Checks (Eclipse)" local="false">
+    <file-match-pattern match-pattern="gen/" include-pattern="false"/>
+    <file-match-pattern match-pattern="." include-pattern="true"/>
+  </fileset>
+  <fileset name="Non-gen" enabled="true" check-config-name="Rob's from Sun Checks (Eclipse)" local="false">
+    <file-match-pattern match-pattern="." include-pattern="true"/>
+    <file-match-pattern match-pattern="gen/" include-pattern="false"/>
+  </fileset>
+  <filter name="NonSrcDirs" enabled="true"/>
+</fileset-config>
